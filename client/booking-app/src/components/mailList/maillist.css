@@ -1,0 +1,37 @@
+.mail{
+    margin-top: 4.5rem;
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding:3.5rem;
+}
+.mailContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.mailInputContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.mailInputContainer>input{
+   width: 300px;
+   height: 30px;
+   padding: .8rem;
+   border: none;
+}
+.mailInputContainer>button{
+    height: 50px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: 500;
+}

@@ -1,0 +1,84 @@
+.new{
+    display: flex;
+
+    .newContainer{
+        flex: 6;
+
+        .top,.bottom{
+            padding: 1rem;
+            margin: 2rem;
+            -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+            -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+            box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+            display: flex;
+
+            h1{
+                color: lightgray;
+                font-size: 1.6rem;
+            }
+
+            .left{
+                flex: 1;
+                text-align: center;
+
+                img{
+                    height: 100px;
+                    width: 100px;
+                    object-fit: contain;
+                }
+            }
+            .right{
+                flex: 2;
+                padding: 0rem 2rem;
+
+                form{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 1.5rem;
+
+                    .selectRooms{
+                        width: 100%;
+
+                        select{
+                            width: 100%;
+                            padding: .8rem;
+                        }
+                    }
+
+                    .formInput{
+                        width: 40%;
+
+                        label{
+                           display: flex;
+                           align-items: center;
+                           gap: .5rem;
+
+                           .icon{
+                            cursor: pointer;
+                           }
+                        }
+                        input{
+                            width: 100%;
+                            padding: .3rem;
+                            border: none;
+                            border-bottom: .1rem solid gray;
+                            outline: none;
+                        }
+                    }
+                    .formBtn{
+                        width: 150px;
+                        padding: .8rem;
+                        border: none;
+                        background-color:#50727B;
+                        color: white;
+                        font-weight: bold;
+                        cursor: pointer;
+                        margin-top: .8rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}

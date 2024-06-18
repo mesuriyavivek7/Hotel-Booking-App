@@ -1,0 +1,84 @@
+.single{
+    display: flex;
+
+    .singleContainer{
+        flex: 6;
+
+        .top{
+            padding: 2rem;
+            display: flex;
+            gap: 1rem;
+
+            .left{
+
+                padding: .5rem;
+                flex: 1;
+                -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+                -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+                box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+                position: relative;
+
+                .editBtn{
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  padding: .5rem;
+                  font-size:.8rem;
+                  background-color:#344955;
+                  color: white;
+                  border-radius:0 0 0 6px;
+                }
+                .item{
+                    display: flex;
+                    gap: 1rem;
+                    margin-top: .5rem;
+                    .itemImg{
+                        width: 100px;
+                        height: 100px;
+                        border-radius:50%;
+                        object-fit: cover;
+                    }
+
+                    .details{
+                        .itemTitle{
+                            margin-bottom: .8rem;
+                            color: #555;
+                            font-size: 1.5rem;
+                        }
+
+                        .detailItem{
+                            margin-bottom: .5rem;
+                            font-size: 1rem;
+
+                            .itemKey{
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: .3rem;
+                            }
+
+                            .itemVal{
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                flex: 2;
+            }
+
+        }
+        .bottom{
+            margin:0rem 2rem;
+            padding:1rem;
+            -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+            -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+            box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8);
+        }
+        .title{
+            font-size: 1.8rem;
+            color: lightgray;
+            margin-bottom:1.2rem;
+        }
+    }
+}

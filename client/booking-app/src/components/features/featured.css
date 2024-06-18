@@ -1,0 +1,30 @@
+.featured{
+    display: flex;
+    justify-content: center;
+}
+
+.featuredContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: .5rem;
+    overflow: hidden;
+    height: 300px;
+}
+.featuredTitles{
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+}
